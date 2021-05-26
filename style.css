@@ -1,0 +1,70 @@
+.container{
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+  	min-height: 100vh;
+}
+
+.imc-box{
+	background-color: #FFF;
+	width: 50%;
+	height: 400px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-radius: 20px;
+}
+
+.titulo-principal{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.inputs{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 0px 40px;
+		height: 150px;
+	}
+
+.imputs-box{
+	border: 2px solid lightgray;
+	border-radius: 10px;
+	background: lightgray;
+	height: 2em;
+	padding-left: 15px;
+}
+
+.button{
+	height: 2em;
+	background: black;
+	border: 2px solid #000;
+	border-radius: 10px;
+	color: white;
+	margin: 1em 10em;
+}
+
+.button:hover{
+	transform: scale(1.1);
+	transition: 300ms;
+
+}
+
+@media (max-width: 768px){
+	.inputs{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin: 0px 5px;
+	}
+
+	.button{
+	height: 2em;
+	margin: 10px 2em;
+}
+}
